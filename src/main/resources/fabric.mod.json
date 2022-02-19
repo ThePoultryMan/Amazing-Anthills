@@ -1,28 +1,28 @@
 {
     "schemaVersion": 1,
-    "id": "modid",
-    "version": "0.1.0",
+    "id": "anthills",
+    "version": "${version}",
 
-    "name": "Mod Name",
-    "description": "This mod is a template for other mods.",
+    "name": "Amazing Anthills",
+    "description": "Adds anthills that repair your items over time.",
     "authors": [
         "ThePoultryMan"
     ],
     "contact": {
-        "sources": "https://github.com/ThePoultryMan/Mod-Template"
+        "sources": "https://github.com/ThePoultryMan/Amazing-Anthills"
     },
 
-    "license": "CC0-1.0",
-    "icon": "assets/modid/icon.png",
+    "license": "MIT",
+    "icon": "assets/anthills/icon.png",
 
     "environment": "*",
     "entrypoints": {
         "main": [
-            "thepoultryman.modid.ModClass"
+            "thepoultryman.anthills.AmazingAnthills"
         ]
     },
     "mixins": [
-        "modid.mixins.json"
+        
     ],
 
     "depends": {
